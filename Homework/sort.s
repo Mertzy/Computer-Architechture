@@ -69,3 +69,5 @@ jmp fillslot
 done:
 
 movl $1, %eax
+
+int $0x080
